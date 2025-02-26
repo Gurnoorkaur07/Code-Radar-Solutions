@@ -1,13 +1,14 @@
-#include<stdio.h>
-int main(){
-    int num1,num2,num3;
-    scanf("%d %d %d",&num1,&num2,&num3);
-    if(num1>=num2&&num1>=num3){
-        printf("num1");
-    }else if(num2>=num1&&num2>=num3){
-        printf("num2");
-    }else{
-        printf("num3");
+#include <stdio.h>
+int main() {
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
+    int max = a;
+    if (b > max) {
+        max = b;
     }
+    if (c > max) {
+        max = c;
+    }
+    printf("%d\n", max);
     return 0;
 }

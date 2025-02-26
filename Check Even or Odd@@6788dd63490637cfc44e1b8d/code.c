@@ -2,10 +2,9 @@
 int main(){
     int num;
     scanf("%d",&num);
-    if(num>=2){
+    if(num%2){
         printf("Even");
-    }
-    else if(num!=2){
+    }else{
         printf("Odd");
     }
     return 0;

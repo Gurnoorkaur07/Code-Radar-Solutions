@@ -18,6 +18,6 @@ void decimalToBinary(int n){
 int main(){
     int num;
     scanf("%d",&num);
-    decimalToBinary(num)
+    decimalToBinary(num);
     return 0;
 }

@@ -11,13 +11,13 @@ void decimalToBinary(int n){
         n=n>>1;
         i++;
     }
-    for(int j=i - 1;j>=0;j--);{
+    for(int j = i - 1;j>=0;j--);{
         printf("%d",binary[j]);
     }
 }
 int main(){
     int num;
     scanf("%d",&num);
-    decimalToBinary(num);
+    printf("%d",decimalToBinary(num));
     return 0;
 }

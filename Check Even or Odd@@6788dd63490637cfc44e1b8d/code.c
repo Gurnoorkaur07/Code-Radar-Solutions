@@ -5,6 +5,8 @@ int main(){
     if(num>=2){
         printf("Even");
     }
-    else printf("Odd");
+    else if (num!=2){
+        printf("Odd");
+    }
     return 0;
 }

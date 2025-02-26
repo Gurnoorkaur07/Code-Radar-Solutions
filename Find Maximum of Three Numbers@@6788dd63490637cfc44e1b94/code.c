@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main(){
-    int a,b,c,max;
+    int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
     if(a>=b&&a>c){
-        max=a;
+        printf("a")
     }else if(b>=a&&b>=c){
-        max=b;
+        printf("b");
     }else{
-        max=c;
+        printf("c")
     }
     return 0;
 }

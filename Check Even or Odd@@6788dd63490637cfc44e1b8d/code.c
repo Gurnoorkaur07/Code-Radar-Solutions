@@ -5,7 +5,7 @@ int main(){
     if(num>=2){
         printf("Even");
     }
-    else if (num!=2){
+    else(num!=2){
         printf("Odd");
     }
     return 0;

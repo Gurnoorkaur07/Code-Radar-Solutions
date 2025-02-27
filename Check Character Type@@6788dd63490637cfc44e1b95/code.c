@@ -2,14 +2,17 @@
 int main(){
     char ch;
     scanf("%c",&ch);
-    if((ch>='0'&&ch<='9')){
+    if(ch>='0'&&ch<='9'){
         printf("Digit");
-    }else if((ch>='A'&&ch<='z')||(ch>='a'&&ch<='z')){
+    }
+    else if((ch>='A'&&ch<='z')||(ch>='a'&&ch<='z')){
         if(ch=='A'||ch='E'||ch='I'||ch='O'||ch='U'||ch='a'||ch='e'||ch='i'||ch='o'||ch='u'){
             printf("Vowel");
-        }else{
+        }
+        else{
             printf("Consonant");
-        }else{
+        }
+        else{
             printf("Special Character");
         }
     }

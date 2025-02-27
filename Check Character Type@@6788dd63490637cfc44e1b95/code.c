@@ -8,11 +8,13 @@ int main(){
     else if((ch>='A'&&ch<='z')||(ch>='a'&&ch<='z')){
         if(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'||ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
             printf("Vowel");
-        } else{
+        } 
+        else{
             printf("Consonant");
-        } else{
+        } 
+    }
+    else{
             printf("Special Character");
         }
-    }
     return 0;
 }

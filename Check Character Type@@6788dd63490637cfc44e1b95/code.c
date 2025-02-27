@@ -2,7 +2,7 @@
 int main(){
     char ch;
     scanf("%c",&ch);
-    of(isdigit(ch)){
+    if(isdigit(ch)){
         printf("Digit");
     }else if(isalpha(ch)){
         ch=tolower(ch);

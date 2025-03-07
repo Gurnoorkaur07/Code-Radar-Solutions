@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
     int rows;
-    scanf("%2d",&rows);
-    for (int i=1;i<=1;i++){
-        for (int j=1;j<=rows;j++){
+    scanf("%d",&rows);
+    for (int i=rows;i>1;i--){
+        for (int j=0;j<1;j++){
             printf("*");
         }
         printf("\n");

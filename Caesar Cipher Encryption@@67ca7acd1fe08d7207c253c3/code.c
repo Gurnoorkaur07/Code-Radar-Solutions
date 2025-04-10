@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<string.h>
 #include <ctype.h>
 void caesarCipher(char *message, int shift) {
     char ch;
